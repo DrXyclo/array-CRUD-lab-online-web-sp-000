@@ -8,15 +8,16 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  
+   array.push(element) 
 end
  array = ["howdy", "hi", "hello","hola"]
  element = "aloha"
 def add_element_to_start_of_array(array, element)
-  array.push(element) 
+  array.unshift(element) 
 end
 add_element_to_start_of_array(array, element)
 print array
+
 def remove_element_from_end_of_array(array)
   
 end
